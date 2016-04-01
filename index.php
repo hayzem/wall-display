@@ -1,4 +1,8 @@
-
+        
+<link as="script" href="/js/tlib.js" rel="preload" />
+<link as="script" href="/js/engine.js" rel="preload" />
+<link as="script" href="/js/walldisplay.js" rel="preload" />
+<link as="script" href="http://domain:socketPort/socket.io/socket.io.js" rel="preload" />
 
 <script>
     $(function () {
