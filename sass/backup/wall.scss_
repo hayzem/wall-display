@@ -1,0 +1,172 @@
+.wallbody {
+    background-color:#1872C0
+}
+
+.wallbody .message {
+    margin-top:0
+}
+
+.wallbody .lead {
+    margin-bottom:0;
+    font-size:160%;
+    font-weight:400
+}
+
+@media (max-width: 991px) {
+    .wallbody .message {
+        width:95%; //werwer
+        left:2.5%
+    }
+}
+
+.wallbody .progress {
+    width:50%;
+    position:absolute;
+    top:35%;
+    left:50%;
+    margin-left:-25%;
+    opacity:0;
+    -webkit-transition:opacity 1s;
+    -moz-transition:opacity 1s;
+    -o-transition:opacity 1s;
+    transition:opacity 1s
+}
+
+.wallbody .progress .progress-bar {
+    width:100%
+}
+
+.wallbody .fontana:empty+.progress {
+    opacity:1
+}
+
+.wallbody .icon-play,.icon-pause,.icon-cog,.icon-expand,.icon-cancel,.icon-twitter,.icon-github-logo,.icon-fontana-logo,.icon-eight-logo {
+    font-family:'fontana';
+    speak:none;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    position:relative;
+    top:1px
+}
+
+.wallbody .icon-play:before {
+    content:"\e000"
+}
+
+.wallbody .icon-pause:before {
+    content:"\e001"
+}
+
+.wallbody .icon-cog:before {
+    content:"\e002"
+}
+
+.wallbody .icon-expand:before {
+    content:"\e003"
+}
+
+.wallbody .icon-cancel:before {
+    content:"\e004"
+}
+
+.wallbody .icon-twitter:before {
+    content:"\e005"
+}
+
+.icon-github-logo:before {
+    content:"\e006"
+}
+
+.wallbody .icon-fontana-logo:before {
+    content:"\e007"
+}
+
+.wallbody .icon-eight-logo:before {
+    content:"\e008"
+}
+
+.wallbody #logos {
+    position:fixed;
+    bottom:0;
+    right:0;
+    z-index:99;
+    margin:0 15px 15px 0
+}
+
+.wallbody #logos a {
+    text-decoration:none
+}
+
+.wallbody #logos .icon-eight-logo {
+    font-size:72px;
+    position:absolute;
+    top:-9px
+}
+
+.wallbody #logos .icon-github-logo {
+    font-size:27px;
+    margin:0 5px 0 75px;
+    padding:0 5px
+}
+
+.wallbody .navbar .icon-fontana-logo {
+    position:absolute;
+    top:-5px
+}
+
+.wallbody .navbar .navbar-brand {
+    padding-left:3em
+}
+
+
+
+.wallbody .navbar-default {
+    background-color:#166AB2;
+    border-color:#166AB2
+}
+
+.wallbody .navbar-default .navbar-brand,.navbar-default .navbar-text {
+    color:#f9f8f7
+}
+
+.wallbody .navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover,.navbar-default .navbar-text:focus,.navbar-default .navbar-text:hover {
+    color:#f9f8f7
+}
+
+.wallbody .btn-default {
+    background-color:#044984;
+    border-color:#044984;
+    color:#f9f8f7
+}
+
+.wallbody .btn-default:focus,.btn-default:hover,.btn-default:active,.btn-default.active {
+    background-color:#033D6D;
+    border-color:#033D6D;
+    color:#f9f8f7
+}
+
+.wallbody .well {
+    background-color:#f9f8f7;
+    border-color:#f9f8f7;
+    color:#3f3f3f
+}
+
+.wallbody a {
+    color:#0072bc
+}
+
+.wallbody .text-muted {
+    color:#999
+}
+
+.wallbody .fresh {
+    display: none
+}
+.wallbody .postimage{
+    display: none;
+}
+

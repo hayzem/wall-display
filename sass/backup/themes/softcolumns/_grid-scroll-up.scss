@@ -1,0 +1,49 @@
+@import "compass";
+
+.softcolumns-scroll-up  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+    .message {
+        -webkit-transform: translate3d(0, 0, 0);
+        position: absolute;
+        top: 100%;
+        opacity: 0;
+        z-index: 0;
+        @include transition-property(top opacity);
+        @include transition-duration(1s);
+        @include transition-timing-function(ease-in-out);
+        
+        &:nth-child(3n+1) {
+            left: 10%;
+        }
+        &:nth-child(3n+2) {
+            left: 36%;
+        }
+        &:nth-child(3n+3) {
+            left: 62%;
+        }
+
+        &.prev-group {
+            top: -100%;
+            opacity: 0;
+            z-index: 1;
+        }
+
+        &.focus-group {
+            top: 6%;
+            opacity: 1;
+            z-index: 2;
+        }
+
+        &.next-group {
+            top: 100%;
+            opacity: 0;
+            z-index: 3;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@import "themes/default/main";
+@import "themes/walle/main";
+@import "themes/winter/main";
+@import "themes/horizon/main";
+@import "themes/columns/main";
+@import "themes/softcolumns/main";
+
+.fresh {
+    display: none
+}

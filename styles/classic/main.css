@@ -1,0 +1,165 @@
+.wallcontent{
+    
+}
+
+.message {
+    margin-top:0
+}
+
+ .lead {
+    margin-bottom:0;
+    font-size:160%;
+    font-weight:400
+}
+
+@media (max-width: 991px) {
+     .message {
+        width:95%;
+        left:2.5%
+    }
+}
+
+ .progress {
+    width:50%;
+    position:absolute;
+    top:35%;
+    left:50%;
+    margin-left:-25%;
+    opacity:0;
+    -webkit-transition:opacity 1s;
+    -moz-transition:opacity 1s;
+    -o-transition:opacity 1s;
+    transition:opacity 1s
+}
+
+ .progress .progress-bar {
+    width:100%
+}
+
+ .fontana:empty+.progress {
+    opacity:1
+}
+
+ .icon-play,.icon-pause,.icon-cog,.icon-expand,.icon-cancel,.icon-twitter,.icon-github-logo,.icon-fontana-logo,.icon-eight-logo {
+    font-family:'fontana';
+    speak:none;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    position:relative;
+    top:1px
+}
+
+ .icon-play:before {
+    content:"\e000"
+}
+
+ .icon-pause:before {
+    content:"\e001"
+}
+
+ .icon-cog:before {
+    content:"\e002"
+}
+
+ .icon-expand:before {
+    content:"\e003"
+}
+
+ .icon-cancel:before {
+    content:"\e004"
+}
+
+ .icon-twitter:before {
+    content:"\e005"
+}
+
+.icon-github-logo:before {
+    content:"\e006"
+}
+
+ .icon-fontana-logo:before {
+    content:"\e007"
+}
+
+ .icon-eight-logo:before {
+    content:"\e008"
+}
+
+ #logos {
+    position:fixed;
+    bottom:0;
+    right:0;
+    z-index:99;
+    margin:0 15px 15px 0
+}
+
+ #logos a {
+    text-decoration:none
+}
+
+ #logos .icon-eight-logo {
+    font-size:72px;
+    position:absolute;
+    top:-9px
+}
+
+ #logos .icon-github-logo {
+    font-size:27px;
+    margin:0 5px 0 75px;
+    padding:0 5px
+}
+
+ .navbar .icon-fontana-logo {
+    position:absolute;
+    top:-5px
+}
+
+ .navbar .navbar-brand {
+    padding-left:3em
+}
+
+
+
+ .navbar-default {
+    background-color:#166AB2;
+    border-color:#166AB2
+}
+
+ .navbar-default .navbar-brand,.navbar-default .navbar-text {
+    color:#f9f8f7
+}
+
+ .navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover,.navbar-default .navbar-text:focus,.navbar-default .navbar-text:hover {
+    color:#f9f8f7
+}
+
+ .btn-default {
+    background-color:#044984;
+    border-color:#044984;
+    color:#f9f8f7
+}
+
+ .btn-default:focus,.btn-default:hover,.btn-default:active,.btn-default.active {
+    background-color:#033D6D;
+    border-color:#033D6D;
+    color:#f9f8f7
+}
+
+ .well {
+    background-color:#f9f8f7;
+    border-color:#f9f8f7;
+    color:#3f3f3f
+}
+
+ a {
+    color:#0072bc
+}
+
+ .text-muted {
+    color:#999
+}
+

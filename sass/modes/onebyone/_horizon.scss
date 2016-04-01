@@ -1,0 +1,196 @@
+@import "horizon/fade";
+
+/*------------------------------------------------------------------//
+	Bootstrap Edit:  														
+//------------------------------------------------------------------*/
+.horizon {
+  .row {
+    margin: 0 !important;
+    width: 100%;
+  }
+  .right {
+    float: right !important;
+    display: block;
+  }
+  .left {
+    float: left !important;
+    display: block;
+  }
+  .no-background,
+  .container {
+    background: none !important;
+  }
+  img {
+    pointer-events: none !important;
+  }
+  .clear {
+    clear: both;
+    display: block;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .full-image img {
+    width: 100% !important;
+    display: block !important;
+    height: auto !important;
+  }
+  .no-padding {
+    padding: 0 !important;
+  }
+  .center img {
+    display: block;
+    margin: 10px auto;
+  }
+}
+/*------------------------------------------------------------------//
+	Main.CSS:  														
+//------------------------------------------------------------------*/
+ul.horizon li #header {
+  background: rgba(0, 0, 0, 0.7);
+  height: 118px;
+  border-bottom: 3px solid #e50101;
+  position: relative;
+  top: 1px;
+}
+ul.horizon li #header #profile-photo img {
+  width: 140px;
+  height: 140px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #E50101;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+ul.horizon li #header #profile-details {
+  margin-left: 26px;
+  margin-top: 31px;
+  border-top-right-radius: 80px !important;
+  border-radius: 10px;
+  height: 100px;
+  width: 400px;
+  padding-top: 19px;
+}
+ul.horizon li #header #profile-details h1 {
+  font-size: 10pt;
+  font-family: 'Source Sans Pro';
+  color: white;
+  font-weight: 300;
+}
+ul.horizon li #header #profile-details a {
+  font-size: 6pt;
+  color: white;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+}
+ul.horizon li #header time {
+  position: absolute;
+  top: 0;
+  font-size: 30px;
+  right: 50px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 120px;
+}
+ul.horizon li #tweet {
+  height: 118px;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  bottom: 1px;
+  border-top: 3px solid #e50101;
+}
+ul.horizon li #tweet time {
+  color: #ffcc00;
+  width: 180px;
+  position: relative;
+}
+ul.horizon li #tweet time:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 118px;
+  line-height: 118px;
+  width: 15px;
+  content: "\f105";
+  color: #fff;
+  font-family: fontawesome;
+  font-size: 44px;
+}
+ul.horizon li #tweet time i {
+  display: block;
+  font-size: 43px;
+  color: #fff;
+  text-align: center;
+  line-height: 118px;
+}
+ul.horizon li #tweet time span {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  display: block;
+}
+ul.horizon li #tweet p {
+  width: 75%;
+  color: white;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+ul.horizon li #tweet p a {
+  color: #E50101;
+}
+
+ul li #profile-details h1 {
+  font-size: 30px !important;
+  letter-spacing: -2px !important;
+  margin-bottom: 2px;
+}
+ul li #profile-details a {
+  font-size: 20px !important;
+  letter-spacing: -1px !important;
+}
+ul li #profile-details {
+  padding-top: 15px !important;
+  letter-spacing: -2px !important;
+}
+ul li #tweet p {
+  font-size: 28px !important;
+  letter-spacing: -1px !important;
+  line-height: 40px !important;
+  font-weight: 300 !important;
+  padding-top: 16px;
+  text-align: left;
+  width: 80%;
+}
+ul.horizon li .time span {
+  font-size: 20px !important;
+  letter-spacing: -1px !important;
+  font-family: 'Source Sans Pro';
+  position: relative;
+  top: 2px;
+  line-height: 108px !important;
+}
+ul.horizon li #header,
+#tweet {
+  border-width: 2px !important;
+}
+ul.horizon li #header #profile-details {
+  margin-top: 17px !important;
+}
+ul.horizon li #header #profile-photo img {
+  padding: 15px !important;
+}

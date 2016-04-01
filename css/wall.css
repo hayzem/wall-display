@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* line 1, ../sass/wall.scss */
+.wallbody {
+  background-color: #1872C0;
+}
+
+/* line 5, ../sass/wall.scss */
+.wallbody .message {
+  margin-top: 0;
+}
+
+/* line 9, ../sass/wall.scss */
+.wallbody .lead {
+  margin-bottom: 0;
+  font-size: 240% !important;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  /* line 16, ../sass/wall.scss */
+  .wallbody .message {
+    width: 95%;
+    left: 2.5%;
+  }
+}
+/* line 22, ../sass/wall.scss */
+.wallbody .progress {
+  width: 50%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: -25%;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+/* line 35, ../sass/wall.scss */
+.wallbody .progress .progress-bar {
+  width: 100%;
+}
+
+/* line 39, ../sass/wall.scss */
+.wallbody .fontana:empty + .progress {
+  opacity: 1;
+}
+
+/* line 43, ../sass/wall.scss */
+.wallbody .icon-play, .icon-pause, .icon-cog, .icon-expand, .icon-cancel, .icon-twitter, .icon-github-logo, .icon-fontana-logo, .icon-eight-logo {
+  font-family: 'fontana';
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  top: 1px;
+}
+
+/* line 56, ../sass/wall.scss */
+.wallbody .icon-play:before {
+  content: "";
+}
+
+/* line 60, ../sass/wall.scss */
+.wallbody .icon-pause:before {
+  content: "";
+}
+
+/* line 64, ../sass/wall.scss */
+.wallbody .icon-cog:before {
+  content: "";
+}
+
+/* line 68, ../sass/wall.scss */
+.wallbody .icon-expand:before {
+  content: "";
+}
+
+/* line 72, ../sass/wall.scss */
+.wallbody .icon-cancel:before {
+  content: "";
+}
+
+/* line 76, ../sass/wall.scss */
+.wallbody .icon-twitter:before {
+  content: "";
+}
+
+/* line 80, ../sass/wall.scss */
+.icon-github-logo:before {
+  content: "";
+}
+
+/* line 84, ../sass/wall.scss */
+.wallbody .icon-fontana-logo:before {
+  content: "";
+}
+
+/* line 88, ../sass/wall.scss */
+.wallbody .icon-eight-logo:before {
+  content: "";
+}
+
+/* line 92, ../sass/wall.scss */
+.wallbody #logos {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  margin: 0 15px 15px 0;
+}
+
+/* line 100, ../sass/wall.scss */
+.wallbody #logos a {
+  text-decoration: none;
+}
+
+/* line 104, ../sass/wall.scss */
+.wallbody #logos .icon-eight-logo {
+  font-size: 72px;
+  position: absolute;
+  top: -9px;
+}
+
+/* line 110, ../sass/wall.scss */
+.wallbody #logos .icon-github-logo {
+  font-size: 27px;
+  margin: 0 5px 0 75px;
+  padding: 0 5px;
+}
+
+/* line 116, ../sass/wall.scss */
+.wallbody .navbar .icon-fontana-logo {
+  position: absolute;
+  top: -5px;
+}
+
+/* line 121, ../sass/wall.scss */
+.wallbody .navbar .navbar-brand {
+  padding-left: 3em;
+}
+
+/* line 127, ../sass/wall.scss */
+.wallbody .navbar-default {
+  background-color: #166AB2;
+  border-color: #166AB2;
+}
+
+/* line 132, ../sass/wall.scss */
+.wallbody .navbar-default .navbar-brand, .navbar-default .navbar-text {
+  color: #f9f8f7;
+}
+
+/* line 136, ../sass/wall.scss */
+.wallbody .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-text:focus, .navbar-default .navbar-text:hover {
+  color: #f9f8f7;
+}
+
+/* line 140, ../sass/wall.scss */
+.wallbody .btn-default {
+  background-color: #044984;
+  border-color: #044984;
+  color: #f9f8f7;
+}
+
+/* line 146, ../sass/wall.scss */
+.wallbody .btn-default:focus, .btn-default:hover, .btn-default:active, .btn-default.active {
+  background-color: #033D6D;
+  border-color: #033D6D;
+  color: #f9f8f7;
+}
+
+/* line 152, ../sass/wall.scss */
+.wallbody .well {
+  background-color: #f9f8f7;
+  border-color: #f9f8f7;
+  color: #3f3f3f;
+}
+
+/* line 158, ../sass/wall.scss */
+.wallbody a {
+  color: #0072bc;
+}
+
+/* line 162, ../sass/wall.scss */
+.wallbody .text-muted {
+  color: #999;
+}

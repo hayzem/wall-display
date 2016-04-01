@@ -1,0 +1,191 @@
+.colunms .wallcontent {
+    background-color: #1872C0;
+}
+
+.columns {
+    /*------------------------------------------------------------------//
+            Bootstrap Edit:  														
+    //------------------------------------------------------------------*/
+    .row {
+      margin: 0 !important;
+      width: 100%;
+    }
+    .right {
+      float: right !important;
+      display: block;
+    }
+    .left {
+      float: left !important;
+      display: block;
+    }
+    .no-background,
+    .container {
+      background: none !important;
+    }
+    img {
+      pointer-events: none !important;
+    }
+    .clear {
+      clear: both;
+      display: block;
+    }
+    a {
+      text-decoration: none !important;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+    .full-image img {
+      width: 100% !important;
+      display: block !important;
+      height: auto !important;
+    }
+    .no-padding {
+      padding: 0 !important;
+    }
+    .center img {
+      display: block;
+      margin: 10px auto;
+    }
+}
+
+ul.columns {
+  width: 100%;
+  text-align: center;
+}
+ul.columns li {
+  border: 1px solid #b7bfd7;
+  border-radius: 10px;
+  background: white;
+  width: 24%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+  height: 90%;
+  overflow: hidden;
+}
+ul.columns li #header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+}
+ul.columns li #header #profile-photo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+}
+ul.columns li #header #profile-details {
+  padding-left: 10px;
+  padding-top: 14px;
+}
+ul.columns li #header #profile-details h1 {
+  font-size: 10pt;
+  font-family: 'Source Sans Pro';
+  color: #455a99;
+  font-weight: 300;
+}
+ul.columns li #header #profile-details a {
+  font-size: 6pt;
+  color: #999999;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+ul.columns li #tweet {
+  padding: 20px 31px;
+  height: 32%;
+  overflow: hidden;
+}
+ul.columns li #tweet p {
+  color: #999;
+  font-size: 18px;
+  text-align: left;
+  width: 100%;
+  line-height: 28px;
+}
+ul.columns li #tweet p a {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+ul.columns li time {
+  padding-left: 31px;
+  color: #999999;
+  padding-bottom: 28px;
+}
+ul.columns li .icon {
+  display: block;
+  margin-right: 31px;
+  font-size: 34px;
+  margin-top: -7px;
+}
+ul.columns li .icon i.facebook {
+  color: #415696;
+}
+ul.columns li .icon i.twitter {
+  color: #6dabde;
+}
+ul.columns li #profile-details h1 {
+  font-size: 26px !important;
+  letter-spacing: -1px !important;
+  margin-bottom: 2px;
+}
+ul.columns li #profile-details a {
+  font-size: 17px !important;
+  letter-spacing: -1px !important;
+}
+ul.columns li #profile-details {
+  padding-top: 4px !important;
+  letter-spacing: -2px !important;
+}
+ul.columns li #tweet p {
+  font-size: 24px !important;
+  letter-spacing: -1px !important;
+  line-height: 30px !important;
+  font-weight: 300 !important;
+  padding-top: 16px;
+  text-align: left;
+  width: 100%;
+  font-family: 'Source Sans Pro';
+}
+ul.columns {
+  padding: 2%;
+}
+ul.columns li #header #profile-details a {
+  text-align: left;
+  line-height: 19px;
+}
+ul.columns li #header {
+  padding-top: 23px !important;
+  padding-bottom: 23px !important;
+}
+figure#tweet-media img {
+  height: 270px !important;
+}
+ul.columns li #tweet {
+  padding-top: 0 !important;
+  padding-bottom: 30px;
+}
+ul.columns li #tweet p {
+  padding-top: 15px !important;
+}
+ul.columns li time {
+  padding-bottom: 31px !important;
+}
+.columns .time span {
+  font-family: 'Source Sans Pro';
+  letter-spacing: -1px;
+}
+
+
+@import "columns/scroll-up";
+@import "columns/scroll-down";

@@ -1,0 +1,30 @@
+@import "compass";
+@import "_common";
+
+.#{$theme}-fade-in {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+    .message {
+        -webkit-transform: translate3d(0, 0, 0);
+        position: absolute;
+        opacity: 0;
+        @include transition-property(opacity);
+        @include transition-duration(1s);
+        &.focus {
+            opacity: 0.8;
+        }
+    }
+}
+
+.#{$theme}-fade-in-media{
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    //-moz-background-size: cover;
+    background-size:   cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;  
+}

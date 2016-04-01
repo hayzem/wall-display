@@ -1,0 +1,104 @@
+@import "compass";
+.default {
+    .visualcontent{
+        position: absolute;
+        right: 2%;
+        top: 31%;
+        width: 28%;
+        height: 40%;
+
+        img{
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 4px solid #ffffff;
+        }
+    }
+}
+
+
+.scroll-up-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30%;
+    right: 0;
+    overflow: hidden;
+
+    .message {
+        -webkit-transform: translate3d(0, 0, 0);
+        position: absolute;
+        top: -10%;
+        opacity: 0;
+        z-index: 0;
+        @include transition-property(top opacity);
+        @include transition-duration(1s);
+        @include transition-timing-function(ease-in-out);
+
+        &.next {
+            top: 100%;
+        }
+
+        &.prev-one {
+            top: 0;
+            opacity: .3;
+            z-index: 1;
+        }
+
+        &.focus {
+            top: 30%;
+            opacity: 1;
+            z-index: 3;
+        }
+
+        &.next-one {
+            top: 60%;
+            opacity: .3;
+            z-index: 2;
+        }   
+
+    }
+
+}
+
+.scroll-down-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -30%;
+    right: 0;
+    overflow: hidden;
+
+    .message {
+          -webkit-transform: translate3d(0, 0, 0);
+          position: absolute;
+          top: 100%;
+          opacity: 0;
+          z-index: 0;
+          @include transition-property(top opacity);
+          @include transition-duration(1s);
+          @include transition-timing-function(ease-in-out);
+
+          &.next {
+              top: -10%;
+          }
+
+          &.prev-one {
+              top: 70%;
+              opacity: .3;
+              z-index: 1;
+          }
+
+          &.focus {
+              top: 40%;
+              opacity: 1;
+              z-index: 3;
+          }
+
+          &.next-one {
+              top: 10%;
+              opacity: .3;
+              z-index: 2;
+          }
+    }
+}

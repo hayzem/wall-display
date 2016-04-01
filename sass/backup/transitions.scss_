@@ -1,0 +1,16 @@
+@import "transitions/compress";
+@import "transitions/fade";
+@import "transitions/lightspeed";
+@import "transitions/hinge";
+@import "transitions/scroll";
+@import "transitions/scroll-image";
+@import "transitions/slide";
+@import "transitions/tilt";
+@import "transitions/vertigo";
+@import "transitions/zoom";
+@import "transitions/walle-fade";
+@import "transitions/winter-fade";
+@import "transitions/horizon-fade";
+@import "transitions/grid-scroll-down";
+@import "transitions/grid-scroll-up";
+@import "transitions/grid-scroll-left";
